@@ -1,6 +1,6 @@
 # vue-location
 
-## vue-router 全局的前置钩子函数 beforeEach 中要外链 ,
+vue-router 全局的前置钩子函数 beforeEach 中要外链 ,
 window.location.href 在 beforeEach 应用会失效,
 插件 vue-location 能解决外链跳转
 
