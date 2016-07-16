@@ -9,7 +9,11 @@ window.location.href 在 beforeEach 应用会失效,
 
 ### 2.导入
 ```
-import Location from './service/vue-location.js'
+var Location = require('./service/vue-location.js')
+```
+####es6
+```
+import Location from './service/vue-location-es6.js'
 ```
 
 ### 3.安装
