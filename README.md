@@ -20,9 +20,9 @@ import Location from './service/vue-location-es6.js'
 ```
 Vue.use(Location)
 ```
-### 3.用法
+### 4.用法
 ```
-var url = '你要跳转的地址'
+var url = 'http://www.wujian.name' //你要跳转的地址
 Vue.locationHref(url)
 ```
 
